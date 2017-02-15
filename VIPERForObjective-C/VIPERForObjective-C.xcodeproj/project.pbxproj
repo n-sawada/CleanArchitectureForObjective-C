@@ -13,6 +13,10 @@
 		106C570A1E548697007DA49F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 106C57081E548697007DA49F /* Main.storyboard */; };
 		106C570C1E548697007DA49F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 106C570B1E548697007DA49F /* Assets.xcassets */; };
 		106C570F1E548697007DA49F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 106C570D1E548697007DA49F /* LaunchScreen.storyboard */; };
+		106C57181E548A6D007DA49F /* FirstRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 106C57171E548A6D007DA49F /* FirstRouter.m */; };
+		106C571B1E548ABE007DA49F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 106C571A1E548ABE007DA49F /* FirstViewController.m */; };
+		106C571E1E548E1C007DA49F /* FirstConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = 106C571D1E548E1C007DA49F /* FirstConfigurator.m */; };
+		106C57241E5497B1007DA49F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 106C57231E5497B1007DA49F /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,14 @@
 		106C570B1E548697007DA49F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		106C570E1E548697007DA49F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		106C57101E548697007DA49F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		106C57161E548A6D007DA49F /* FirstRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstRouter.h; sourceTree = "<group>"; };
+		106C57171E548A6D007DA49F /* FirstRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstRouter.m; sourceTree = "<group>"; };
+		106C57191E548ABE007DA49F /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		106C571A1E548ABE007DA49F /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		106C571C1E548E1C007DA49F /* FirstConfigurator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstConfigurator.h; sourceTree = "<group>"; };
+		106C571D1E548E1C007DA49F /* FirstConfigurator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstConfigurator.m; sourceTree = "<group>"; };
+		106C57221E5497B1007DA49F /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		106C57231E5497B1007DA49F /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +74,14 @@
 				106C57031E548697007DA49F /* AppDelegate.m */,
 				106C57051E548697007DA49F /* ViewController.h */,
 				106C57061E548697007DA49F /* ViewController.m */,
+				106C57191E548ABE007DA49F /* FirstViewController.h */,
+				106C571A1E548ABE007DA49F /* FirstViewController.m */,
+				106C57221E5497B1007DA49F /* SecondViewController.h */,
+				106C57231E5497B1007DA49F /* SecondViewController.m */,
+				106C571C1E548E1C007DA49F /* FirstConfigurator.h */,
+				106C571D1E548E1C007DA49F /* FirstConfigurator.m */,
+				106C57161E548A6D007DA49F /* FirstRouter.h */,
+				106C57171E548A6D007DA49F /* FirstRouter.m */,
 				106C57081E548697007DA49F /* Main.storyboard */,
 				106C570B1E548697007DA49F /* Assets.xcassets */,
 				106C570D1E548697007DA49F /* LaunchScreen.storyboard */,
@@ -152,6 +172,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				106C57071E548697007DA49F /* ViewController.m in Sources */,
+				106C57181E548A6D007DA49F /* FirstRouter.m in Sources */,
+				106C571B1E548ABE007DA49F /* FirstViewController.m in Sources */,
+				106C57241E5497B1007DA49F /* SecondViewController.m in Sources */,
+				106C571E1E548E1C007DA49F /* FirstConfigurator.m in Sources */,
 				106C57041E548697007DA49F /* AppDelegate.m in Sources */,
 				106C57011E548697007DA49F /* main.m in Sources */,
 			);
