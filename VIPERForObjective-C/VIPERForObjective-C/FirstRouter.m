@@ -8,8 +8,10 @@
 
 #import "FirstRouter.h"
 #import "FirstViewController.h"
+#import "SecondViewController.h"
 
-@interface FirstRouter () <FirstRouterInput>
+
+@interface FirstRouter ()
 @end
 
 @implementation FirstRouter
@@ -28,6 +30,9 @@
     NSLog(@"Function: %s, Line: %d", __PRETTY_FUNCTION__, __LINE__ );
 }
 
+- (void)transitionToNextScene {
+    SecondViewController *second = [SecondViewController selfViewController];
+}
 
 
 

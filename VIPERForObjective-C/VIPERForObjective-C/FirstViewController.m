@@ -16,6 +16,10 @@
 
 @implementation FirstViewController
 
++ (instancetype)selfViewController {
+    return [[self class] selfViewControllerWithStoryboardName:@"Main"];
+}
+
 - (void)awakeFromNib {
     [super awakeFromNib];
     [[FirstConfigurator sharedInstance] configureViewController:self];
@@ -23,7 +27,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self doSomethingOnLoad];
+}
+
+#pragma mark - Event Handling
+
+- (void)doSomethingOnLoad {
+    [self.output doSomething];
 }
 
 #pragma mark - Transition
@@ -35,10 +45,17 @@
 #pragma mark - UIButton Action
 
 - (IBAction)tapped:(UIButton *)sender {
-    NSLog(@"Function: %s, Line: %d", __PRETTY_FUNCTION__, __LINE__ );
+    // programmatically create instance base on storyboard
+//    [self.router transitionToNextScene];
 }
 
 @end
 
+#pragma mark - Storyboard
 
-
+@implementation FirstViewController (Storyboard)
++ (instancetype)selfViewControllerWithStoryboardName:(NSString *)storyboardName {
+    UIStoryboard *sb = [UIStoryboard storyboardWithName:storyboardName bundle:nil];
+    return [sb instantiateViewControllerWithIdentifier:NSStringFromClass([self class])];
+}
+@end

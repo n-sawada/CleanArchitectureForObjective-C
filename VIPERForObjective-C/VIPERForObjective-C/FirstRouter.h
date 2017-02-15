@@ -17,12 +17,14 @@
 
 @end
 
-@interface FirstRouter : NSObject
+@interface FirstRouter : NSObject <FirstRouterInput>
 
 @property (nonatomic, weak) FirstViewController *viewController;
 
 - (void)navigateToSomeWhere;
 - (void)passDataToNextScene:(UIStoryboardSegue *)segue;
+
+- (void)transitionToNextScene;
 
 @end
 

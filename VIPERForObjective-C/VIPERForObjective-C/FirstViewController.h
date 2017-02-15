@@ -10,8 +10,21 @@
 
 @class FirstRouter;
 
+@protocol FirstViewControllerOutput <NSObject>
+
+- (void)doSomething;
+
+@end
+
 @interface FirstViewController : UIViewController
 
-@property (nonatomic) FirstRouter *router;
++ (instancetype)selfViewController;
 
+@property (nonatomic) FirstRouter *router;
+@property (nonatomic) id<FirstViewControllerOutput> output;
+
+@end
+
+@interface FirstViewController (Storyboard)
++ (instancetype)selfViewControllerWithStoryboardName:(NSString *)storyboardName;
 @end

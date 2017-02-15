@@ -9,6 +9,7 @@
 #import "FirstConfigurator.h"
 #import "FirstViewController.h"
 #import "FirstRouter.h"
+#import "FirstInteractor.h"
 
 @implementation FirstConfigurator
 
@@ -27,11 +28,12 @@
     router.viewController = viewController;
     
     // TODO: configurePresenter
-    // TODO: confiugreInteractor
-    
+
+    FirstInteractor *interactor = [FirstInteractor new];
+    viewController.output = interactor;    
     viewController.router = router;
     
-    // TODO: setinteractor
+    
 }
 
 
