@@ -11,12 +11,17 @@
 @class FirstRouter;
 
 @protocol FirstViewControllerOutput <NSObject>
-
+@required
 - (void)doSomething;
-
 @end
 
-@interface FirstViewController : UIViewController
+
+@protocol FirstViewControllerInput <NSObject>
+@required
+- (void)displaySomething;
+@end
+
+@interface FirstViewController : UIViewController <FirstViewControllerInput>
 
 + (instancetype)selfViewController;
 

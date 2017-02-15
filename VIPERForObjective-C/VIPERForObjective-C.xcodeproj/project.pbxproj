@@ -18,6 +18,7 @@
 		106C571E1E548E1C007DA49F /* FirstConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = 106C571D1E548E1C007DA49F /* FirstConfigurator.m */; };
 		106C57241E5497B1007DA49F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 106C57231E5497B1007DA49F /* SecondViewController.m */; };
 		106C572A1E54A711007DA49F /* FirstInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 106C57291E54A711007DA49F /* FirstInteractor.m */; };
+		106C572D1E54B932007DA49F /* FirstPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 106C572C1E54B932007DA49F /* FirstPresenter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,8 @@
 		106C57231E5497B1007DA49F /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		106C57281E54A711007DA49F /* FirstInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstInteractor.h; sourceTree = "<group>"; };
 		106C57291E54A711007DA49F /* FirstInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstInteractor.m; sourceTree = "<group>"; };
+		106C572B1E54B932007DA49F /* FirstPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstPresenter.h; sourceTree = "<group>"; };
+		106C572C1E54B932007DA49F /* FirstPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstPresenter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 				106C571D1E548E1C007DA49F /* FirstConfigurator.m */,
 				106C57281E54A711007DA49F /* FirstInteractor.h */,
 				106C57291E54A711007DA49F /* FirstInteractor.m */,
+				106C572B1E54B932007DA49F /* FirstPresenter.h */,
+				106C572C1E54B932007DA49F /* FirstPresenter.m */,
 				106C57221E5497B1007DA49F /* SecondViewController.h */,
 				106C57231E5497B1007DA49F /* SecondViewController.m */,
 				106C57161E548A6D007DA49F /* FirstRouter.h */,
@@ -179,6 +184,7 @@
 				106C57071E548697007DA49F /* ViewController.m in Sources */,
 				106C57181E548A6D007DA49F /* FirstRouter.m in Sources */,
 				106C571B1E548ABE007DA49F /* FirstViewController.m in Sources */,
+				106C572D1E54B932007DA49F /* FirstPresenter.m in Sources */,
 				106C57241E5497B1007DA49F /* SecondViewController.m in Sources */,
 				106C571E1E548E1C007DA49F /* FirstConfigurator.m in Sources */,
 				106C57041E548697007DA49F /* AppDelegate.m in Sources */,

@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "FirstViewController.h"
 
 @protocol FirstInteractorOutput <NSObject>
 @required
@@ -19,7 +18,7 @@
 - (void)doSomething;
 @end
 
-@interface FirstInteractor : NSObject <FirstInteractorInput, FirstViewControllerOutput>
+@interface FirstInteractor : NSObject <FirstInteractorInput>
 
 @property (nonatomic) id<FirstInteractorOutput> output;
 // TODO: Worker property

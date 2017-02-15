@@ -8,6 +8,10 @@
 
 #import "FirstInteractor.h"
 
+@interface FirstInteractor ()
+
+@end
+
 @implementation FirstInteractor
 
 - (void)doSomething {

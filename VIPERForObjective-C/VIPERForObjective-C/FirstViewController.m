@@ -49,6 +49,12 @@
 //    [self.router transitionToNextScene];
 }
 
+#pragma mark - Display Logic
+
+- (void)displaySomething {
+    NSLog(@"Function: %s, Line: %d", __PRETTY_FUNCTION__, __LINE__ );
+}
+
 @end
 
 #pragma mark - Storyboard

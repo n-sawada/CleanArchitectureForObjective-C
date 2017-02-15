@@ -10,6 +10,17 @@
 #import "FirstViewController.h"
 #import "FirstRouter.h"
 #import "FirstInteractor.h"
+#import "FirstPresenter.h"
+
+@interface FirstInteractor (Extension) <FirstViewControllerOutput>
+@end
+@interface FirstPresenter (Extension) <FirstInteractorOutput>
+@end
+@interface FirstViewController (Extension) <FirstPresenterOutput>
+@end
+
+@interface FirstConfigurator ()
+@end
 
 @implementation FirstConfigurator
 
@@ -27,15 +38,16 @@
     FirstRouter *router = [FirstRouter new];
     router.viewController = viewController;
     
-    // TODO: configurePresenter
+    FirstPresenter *presenter = [FirstPresenter new];
+    presenter.output = viewController;
+    
 
     FirstInteractor *interactor = [FirstInteractor new];
+    interactor.output = presenter;
+    
     viewController.output = interactor;    
     viewController.router = router;
-    
-    
 }
 
-
-
 @end
+
