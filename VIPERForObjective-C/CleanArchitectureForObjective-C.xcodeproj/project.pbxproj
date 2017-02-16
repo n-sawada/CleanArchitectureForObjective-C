@@ -60,7 +60,7 @@
 		106C56F31E548696007DA49F = {
 			isa = PBXGroup;
 			children = (
-				106C56FE1E548697007DA49F /* VIPERForObjective-C */,
+				106C56FE1E548697007DA49F /* CleanArchitectureForObjective-C */,
 				106C56FD1E548697007DA49F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,7 +73,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		106C56FE1E548697007DA49F /* VIPERForObjective-C */ = {
+		106C56FE1E548697007DA49F /* CleanArchitectureForObjective-C */ = {
 			isa = PBXGroup;
 			children = (
 				106C57021E548697007DA49F /* AppDelegate.h */,
@@ -98,7 +98,7 @@
 				106C57101E548697007DA49F /* Info.plist */,
 				106C56FF1E548697007DA49F /* Supporting Files */,
 			);
-			path = "VIPERForObjective-C";
+			path = "CleanArchitectureForObjective-C";
 			sourceTree = "<group>";
 		};
 		106C56FF1E548697007DA49F /* Supporting Files */ = {
