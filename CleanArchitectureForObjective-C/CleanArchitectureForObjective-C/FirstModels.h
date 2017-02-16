@@ -8,17 +8,14 @@
 
 #import <Foundation/Foundation.h>
 
-@interface FirstModels : NSObject
-
-@end
-
-
 @interface FirstRequest : NSObject
 @property (nonatomic) NSString *testStr;
 @end
+
 @interface FirstResponse : NSObject
 @property (nonatomic) NSString *testStr;
 @end
+
 @interface FirstViewModel : NSObject
 @property (nonatomic) NSString *testStr;
 @end

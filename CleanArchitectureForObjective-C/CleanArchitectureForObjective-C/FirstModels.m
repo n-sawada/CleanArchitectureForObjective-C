@@ -8,11 +8,6 @@
 
 #import "FirstModels.h"
 
-@implementation FirstModels
-@end
-
-
-
 @implementation FirstRequest
 @end
 
