@@ -22,7 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		106C56FC1E548697007DA49F /* VIPERForObjective-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VIPERForObjective-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		106C56FC1E548697007DA49F /* CleanArchitectureForObjective-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CleanArchitectureForObjective-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		106C57001E548697007DA49F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		106C57021E548697007DA49F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		106C57031E548697007DA49F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -68,7 +68,7 @@
 		106C56FD1E548697007DA49F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				106C56FC1E548697007DA49F /* VIPERForObjective-C.app */,
+				106C56FC1E548697007DA49F /* CleanArchitectureForObjective-C.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,9 +112,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		106C56FB1E548696007DA49F /* VIPERForObjective-C */ = {
+		106C56FB1E548696007DA49F /* CleanArchitectureForObjective-C */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 106C57131E548697007DA49F /* Build configuration list for PBXNativeTarget "VIPERForObjective-C" */;
+			buildConfigurationList = 106C57131E548697007DA49F /* Build configuration list for PBXNativeTarget "CleanArchitectureForObjective-C" */;
 			buildPhases = (
 				106C56F81E548696007DA49F /* Sources */,
 				106C56F91E548696007DA49F /* Frameworks */,
@@ -124,9 +124,9 @@
 			);
 			dependencies = (
 			);
-			name = "VIPERForObjective-C";
+			name = "CleanArchitectureForObjective-C";
 			productName = "VIPERForObjective-C";
-			productReference = 106C56FC1E548697007DA49F /* VIPERForObjective-C.app */;
+			productReference = 106C56FC1E548697007DA49F /* CleanArchitectureForObjective-C.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -145,7 +145,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 106C56F71E548696007DA49F /* Build configuration list for PBXProject "VIPERForObjective-C" */;
+			buildConfigurationList = 106C56F71E548696007DA49F /* Build configuration list for PBXProject "CleanArchitectureForObjective-C" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -158,7 +158,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				106C56FB1E548696007DA49F /* VIPERForObjective-C */,
+				106C56FB1E548696007DA49F /* CleanArchitectureForObjective-C */,
 			);
 		};
 /* End PBXProject section */
@@ -312,7 +312,7 @@
 				DEVELOPMENT_TEAM = M9DDQZ5T2V;
 				INFOPLIST_FILE = "VIPERForObjective-C/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.viperObjC.VIPERForObjective-C";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CleanObjC.CleanArchitectureForObjective-C";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -324,7 +324,7 @@
 				DEVELOPMENT_TEAM = M9DDQZ5T2V;
 				INFOPLIST_FILE = "VIPERForObjective-C/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.viperObjC.VIPERForObjective-C";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CleanObjC.CleanArchitectureForObjective-C";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -332,7 +332,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		106C56F71E548696007DA49F /* Build configuration list for PBXProject "VIPERForObjective-C" */ = {
+		106C56F71E548696007DA49F /* Build configuration list for PBXProject "CleanArchitectureForObjective-C" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				106C57111E548697007DA49F /* Debug */,
@@ -341,13 +341,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		106C57131E548697007DA49F /* Build configuration list for PBXNativeTarget "VIPERForObjective-C" */ = {
+		106C57131E548697007DA49F /* Build configuration list for PBXNativeTarget "CleanArchitectureForObjective-C" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				106C57141E548697007DA49F /* Debug */,
 				106C57151E548697007DA49F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
