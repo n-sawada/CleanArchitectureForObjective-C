@@ -9,6 +9,7 @@
 #import "FirstViewController.h"
 #import "FirstRouter.h"
 #import "FirstConfigurator.h"
+#import "FirstModels.h"
 
 @interface FirstViewController ()
 
@@ -33,7 +34,9 @@
 #pragma mark - Event Handling
 
 - (void)doSomethingOnLoad {
-    [self.output doSomething];
+//    [self.output doSomething];
+    FirstRequest *request = [FirstRequest new];
+    [self.output doSomething:request];
 }
 
 #pragma mark - Transition

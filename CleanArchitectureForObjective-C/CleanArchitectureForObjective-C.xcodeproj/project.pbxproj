@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		102B51441E5632D3004EF74B /* FirstWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 102B51431E5632D3004EF74B /* FirstWorker.m */; };
+		102B51471E56351F004EF74B /* FirstModels.m in Sources */ = {isa = PBXBuildFile; fileRef = 102B51461E56351F004EF74B /* FirstModels.m */; };
 		106C57011E548697007DA49F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 106C57001E548697007DA49F /* main.m */; };
 		106C57041E548697007DA49F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 106C57031E548697007DA49F /* AppDelegate.m */; };
 		106C57071E548697007DA49F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 106C57061E548697007DA49F /* ViewController.m */; };
@@ -22,6 +24,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		102B51421E5632D3004EF74B /* FirstWorker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstWorker.h; sourceTree = "<group>"; };
+		102B51431E5632D3004EF74B /* FirstWorker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstWorker.m; sourceTree = "<group>"; };
+		102B51451E56351F004EF74B /* FirstModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstModels.h; sourceTree = "<group>"; };
+		102B51461E56351F004EF74B /* FirstModels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstModels.m; sourceTree = "<group>"; };
 		106C56FC1E548697007DA49F /* CleanArchitectureForObjective-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CleanArchitectureForObjective-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		106C57001E548697007DA49F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		106C57021E548697007DA49F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -88,6 +94,10 @@
 				106C57291E54A711007DA49F /* FirstInteractor.m */,
 				106C572B1E54B932007DA49F /* FirstPresenter.h */,
 				106C572C1E54B932007DA49F /* FirstPresenter.m */,
+				102B51451E56351F004EF74B /* FirstModels.h */,
+				102B51461E56351F004EF74B /* FirstModels.m */,
+				102B51421E5632D3004EF74B /* FirstWorker.h */,
+				102B51431E5632D3004EF74B /* FirstWorker.m */,
 				106C57221E5497B1007DA49F /* SecondViewController.h */,
 				106C57231E5497B1007DA49F /* SecondViewController.m */,
 				106C57161E548A6D007DA49F /* FirstRouter.h */,
@@ -183,7 +193,9 @@
 			files = (
 				106C57071E548697007DA49F /* ViewController.m in Sources */,
 				106C57181E548A6D007DA49F /* FirstRouter.m in Sources */,
+				102B51441E5632D3004EF74B /* FirstWorker.m in Sources */,
 				106C571B1E548ABE007DA49F /* FirstViewController.m in Sources */,
+				102B51471E56351F004EF74B /* FirstModels.m in Sources */,
 				106C572D1E54B932007DA49F /* FirstPresenter.m in Sources */,
 				106C57241E5497B1007DA49F /* SecondViewController.m in Sources */,
 				106C571E1E548E1C007DA49F /* FirstConfigurator.m in Sources */,

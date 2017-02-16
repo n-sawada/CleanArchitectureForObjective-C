@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
+@class FirstWorker;
+@class FirstRequest;
+
 @protocol FirstInteractorOutput <NSObject>
 @required
 - (void)presentSomething;
@@ -15,12 +18,10 @@
 
 @protocol FirstInteractorInput <NSObject>
 @required
-- (void)doSomething;
+- (void)doSomething:(FirstRequest *)request;
 @end
 
 @interface FirstInteractor : NSObject <FirstInteractorInput>
-
 @property (nonatomic) id<FirstInteractorOutput> output;
-// TODO: Worker property
-
+@property (nonatomic) FirstWorker *worker;
 @end

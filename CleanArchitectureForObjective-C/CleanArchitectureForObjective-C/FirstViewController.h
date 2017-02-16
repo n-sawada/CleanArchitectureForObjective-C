@@ -9,10 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @class FirstRouter;
+@class FirstRequest;
 
 @protocol FirstViewControllerOutput <NSObject>
 @required
-- (void)doSomething;
+//- (void)doSomething;
+- (void)doSomething:(FirstRequest *)request;
 @end
 
 

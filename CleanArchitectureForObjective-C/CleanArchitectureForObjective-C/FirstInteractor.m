@@ -7,6 +7,8 @@
 //
 
 #import "FirstInteractor.h"
+#import "FirstWorker.h"
+#import "FirstModels.h"
 
 @interface FirstInteractor ()
 
@@ -14,12 +16,15 @@
 
 @implementation FirstInteractor
 
-- (void)doSomething {
+- (void)doSomething:(FirstRequest *)request {
     
-    // TODO: configure Worker
-    
+    // Do some works using request
+
+    self.worker = [FirstWorker new];
+    [self.worker doSomeWork];
     [self.output presentSomething];
 }
+
 
 
 @end
