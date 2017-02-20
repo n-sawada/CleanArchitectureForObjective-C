@@ -22,7 +22,10 @@
 
     self.worker = [FirstWorker new];
     [self.worker doSomeWork];
-    [self.output presentSomething];
+    
+    
+    FirstResponse *response = [FirstResponse new];
+    [self.output presentSomething:response];
 }
 
 

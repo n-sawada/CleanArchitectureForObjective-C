@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @class FirstViewModel;
+@class FirstResponse;
 
 @protocol FirstPresenterOutput <NSObject>
 @required
@@ -17,14 +18,11 @@
 
 @protocol FirstPresenterInput <NSObject>
 @required
-- (void)presentSomething;
+- (void)presentSomething:(FirstResponse *)response;
 @end
 
 
 @interface FirstPresenter : NSObject <FirstPresenterInput>
 
 @property (nonatomic, weak) id<FirstPresenterOutput> output;
-
-- (void)presentSomething;
-
 @end

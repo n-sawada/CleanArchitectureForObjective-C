@@ -14,9 +14,10 @@
 @end
 @implementation FirstPresenter
 
-- (void)presentSomething {
+- (void)presentSomething:(FirstResponse *)respnse {
     
-    // TODO: get Response
+    // TODO: get Response to viewModel
+
     FirstViewModel *viewModel = [FirstViewModel new];
     [self.output displaySomething:viewModel];
 

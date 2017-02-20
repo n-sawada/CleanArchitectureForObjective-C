@@ -10,10 +10,11 @@
 
 @class FirstWorker;
 @class FirstRequest;
+@class FirstResponse;
 
 @protocol FirstInteractorOutput <NSObject>
 @required
-- (void)presentSomething;
+- (void)presentSomething:(FirstResponse *)response;
 @end
 
 @protocol FirstInteractorInput <NSObject>
