@@ -7,6 +7,7 @@
 //
 
 #import "FirstPresenter.h"
+#import "FirstModels.h"
 
 @interface FirstPresenter ()
 
@@ -16,8 +17,8 @@
 - (void)presentSomething {
     
     // TODO: get Response
-    // TODO: get ViewModel
-    [self.output displaySomething];
+    FirstViewModel *viewModel = [FirstViewModel new];
+    [self.output displaySomething:viewModel];
 
 }
 

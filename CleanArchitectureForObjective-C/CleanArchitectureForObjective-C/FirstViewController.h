@@ -10,18 +10,20 @@
 
 @class FirstRouter;
 @class FirstRequest;
+@class FirstViewModel;
 
 @protocol FirstViewControllerOutput <NSObject>
 @required
-//- (void)doSomething;
 - (void)doSomething:(FirstRequest *)request;
 @end
 
 
 @protocol FirstViewControllerInput <NSObject>
 @required
-- (void)displaySomething;
+- (void)displaySomething:(FirstViewModel *)viewModel;
 @end
+
+
 
 @interface FirstViewController : UIViewController <FirstViewControllerInput>
 
@@ -29,6 +31,8 @@
 
 @property (nonatomic) FirstRouter *router;
 @property (nonatomic) id<FirstViewControllerOutput> output;
+
+
 
 @end
 

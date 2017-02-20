@@ -8,9 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
+@class FirstViewModel;
+
 @protocol FirstPresenterOutput <NSObject>
 @required
-- (void)displaySomething;
+- (void)displaySomething:(FirstViewModel *)viewModel;
 @end
 
 @protocol FirstPresenterInput <NSObject>

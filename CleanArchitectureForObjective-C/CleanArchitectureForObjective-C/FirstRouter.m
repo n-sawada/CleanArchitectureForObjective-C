@@ -32,6 +32,7 @@
 
 - (void)transitionToNextScene {
     SecondViewController *second = [SecondViewController selfViewController];
+    NSLog(@"%@", second );
 }
 
 

@@ -34,7 +34,6 @@
 #pragma mark - Event Handling
 
 - (void)doSomethingOnLoad {
-//    [self.output doSomething];
     FirstRequest *request = [FirstRequest new];
     [self.output doSomething:request];
 }
@@ -54,8 +53,9 @@
 
 #pragma mark - Display Logic
 
-- (void)displaySomething {
-    NSLog(@"Function: %s, Line: %d", __PRETTY_FUNCTION__, __LINE__ );
+- (void)displaySomething:(FirstViewModel *)viewModel {
+    // 描画に必要なデータを設定して描画処理
+    NSLog(@"%@", viewModel );
 }
 
 @end
