@@ -63,6 +63,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		100CE2951E5B13F40098E6EC /* SampleScene */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SampleScene;
+			sourceTree = "<group>";
+		};
 		106C56F31E548696007DA49F = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +89,7 @@
 		106C56FE1E548697007DA49F /* CleanArchitectureForObjective-C */ = {
 			isa = PBXGroup;
 			children = (
+				100CE2951E5B13F40098E6EC /* SampleScene */,
 				106C57021E548697007DA49F /* AppDelegate.h */,
 				106C57031E548697007DA49F /* AppDelegate.m */,
 				106C57051E548697007DA49F /* ViewController.h */,
@@ -145,8 +153,9 @@
 		106C56F41E548696007DA49F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = Sample;
 				LastUpgradeCheck = 0820;
-				ORGANIZATIONNAME = viperObjC;
+				ORGANIZATIONNAME = CAFObjC;
 				TargetAttributes = {
 					106C56FB1E548696007DA49F = {
 						CreatedOnToolsVersion = 8.2.1;
