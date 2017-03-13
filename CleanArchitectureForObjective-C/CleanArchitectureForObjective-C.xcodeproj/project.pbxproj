@@ -7,49 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		102B51441E5632D3004EF74B /* FirstWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 102B51431E5632D3004EF74B /* FirstWorker.m */; };
-		102B51471E56351F004EF74B /* FirstModels.m in Sources */ = {isa = PBXBuildFile; fileRef = 102B51461E56351F004EF74B /* FirstModels.m */; };
+		100E077D1E7703380077AB39 /* TodoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 100E077C1E7703380077AB39 /* TodoItem.m */; };
+		100E07841E771ACF0077AB39 /* TodosWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 100E07831E771ACF0077AB39 /* TodosWorker.m */; };
+		100E07871E7721D00077AB39 /* TodosDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 100E07861E7721D00077AB39 /* TodosDataStore.m */; };
+		102926991E5B4B7600545CCE /* TodoListConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1029268C1E5B4B7600545CCE /* TodoListConfigurator.m */; };
+		1029269A1E5B4B7600545CCE /* TodoListInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1029268E1E5B4B7600545CCE /* TodoListInteractor.m */; };
+		1029269B1E5B4B7600545CCE /* TodoListModels.m in Sources */ = {isa = PBXBuildFile; fileRef = 102926901E5B4B7600545CCE /* TodoListModels.m */; };
+		1029269C1E5B4B7600545CCE /* TodoListPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 102926921E5B4B7600545CCE /* TodoListPresenter.m */; };
+		1029269D1E5B4B7600545CCE /* TodoListRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 102926941E5B4B7600545CCE /* TodoListRouter.m */; };
+		1029269E1E5B4B7600545CCE /* TodoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 102926961E5B4B7600545CCE /* TodoListViewController.m */; };
+		1029269F1E5B4B7600545CCE /* TodoListWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 102926981E5B4B7600545CCE /* TodoListWorker.m */; };
 		106C57011E548697007DA49F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 106C57001E548697007DA49F /* main.m */; };
 		106C57041E548697007DA49F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 106C57031E548697007DA49F /* AppDelegate.m */; };
-		106C57071E548697007DA49F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 106C57061E548697007DA49F /* ViewController.m */; };
 		106C570A1E548697007DA49F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 106C57081E548697007DA49F /* Main.storyboard */; };
 		106C570C1E548697007DA49F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 106C570B1E548697007DA49F /* Assets.xcassets */; };
 		106C570F1E548697007DA49F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 106C570D1E548697007DA49F /* LaunchScreen.storyboard */; };
-		106C57181E548A6D007DA49F /* FirstRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 106C57171E548A6D007DA49F /* FirstRouter.m */; };
-		106C571B1E548ABE007DA49F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 106C571A1E548ABE007DA49F /* FirstViewController.m */; };
-		106C571E1E548E1C007DA49F /* FirstConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = 106C571D1E548E1C007DA49F /* FirstConfigurator.m */; };
-		106C57241E5497B1007DA49F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 106C57231E5497B1007DA49F /* SecondViewController.m */; };
-		106C572A1E54A711007DA49F /* FirstInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 106C57291E54A711007DA49F /* FirstInteractor.m */; };
-		106C572D1E54B932007DA49F /* FirstPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 106C572C1E54B932007DA49F /* FirstPresenter.m */; };
+		927D661DBEAD917714968F9A /* libPods-CleanArchitectureForObjective-C.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E587FAB5E0975A71B3826221 /* libPods-CleanArchitectureForObjective-C.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		102B51421E5632D3004EF74B /* FirstWorker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstWorker.h; sourceTree = "<group>"; };
-		102B51431E5632D3004EF74B /* FirstWorker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstWorker.m; sourceTree = "<group>"; };
-		102B51451E56351F004EF74B /* FirstModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstModels.h; sourceTree = "<group>"; };
-		102B51461E56351F004EF74B /* FirstModels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstModels.m; sourceTree = "<group>"; };
+		100E077B1E7703380077AB39 /* TodoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodoItem.h; sourceTree = "<group>"; };
+		100E077C1E7703380077AB39 /* TodoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoItem.m; sourceTree = "<group>"; };
+		100E07821E771ACF0077AB39 /* TodosWorker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodosWorker.h; sourceTree = "<group>"; };
+		100E07831E771ACF0077AB39 /* TodosWorker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodosWorker.m; sourceTree = "<group>"; };
+		100E07851E7721D00077AB39 /* TodosDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodosDataStore.h; sourceTree = "<group>"; };
+		100E07861E7721D00077AB39 /* TodosDataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodosDataStore.m; sourceTree = "<group>"; };
+		1029268B1E5B4B7600545CCE /* TodoListConfigurator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodoListConfigurator.h; sourceTree = "<group>"; };
+		1029268C1E5B4B7600545CCE /* TodoListConfigurator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoListConfigurator.m; sourceTree = "<group>"; };
+		1029268D1E5B4B7600545CCE /* TodoListInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodoListInteractor.h; sourceTree = "<group>"; };
+		1029268E1E5B4B7600545CCE /* TodoListInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoListInteractor.m; sourceTree = "<group>"; };
+		1029268F1E5B4B7600545CCE /* TodoListModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodoListModels.h; sourceTree = "<group>"; };
+		102926901E5B4B7600545CCE /* TodoListModels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoListModels.m; sourceTree = "<group>"; };
+		102926911E5B4B7600545CCE /* TodoListPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodoListPresenter.h; sourceTree = "<group>"; };
+		102926921E5B4B7600545CCE /* TodoListPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoListPresenter.m; sourceTree = "<group>"; };
+		102926931E5B4B7600545CCE /* TodoListRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodoListRouter.h; sourceTree = "<group>"; };
+		102926941E5B4B7600545CCE /* TodoListRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoListRouter.m; sourceTree = "<group>"; };
+		102926951E5B4B7600545CCE /* TodoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodoListViewController.h; sourceTree = "<group>"; };
+		102926961E5B4B7600545CCE /* TodoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoListViewController.m; sourceTree = "<group>"; };
+		102926971E5B4B7600545CCE /* TodoListWorker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodoListWorker.h; sourceTree = "<group>"; };
+		102926981E5B4B7600545CCE /* TodoListWorker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoListWorker.m; sourceTree = "<group>"; };
+		102926C41E5B666900545CCE /* TodoServiceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodoServiceProtocol.h; sourceTree = "<group>"; };
 		106C56FC1E548697007DA49F /* CleanArchitectureForObjective-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CleanArchitectureForObjective-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		106C57001E548697007DA49F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		106C57021E548697007DA49F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		106C57031E548697007DA49F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		106C57051E548697007DA49F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		106C57061E548697007DA49F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		106C57091E548697007DA49F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		106C570B1E548697007DA49F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		106C570E1E548697007DA49F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		106C57101E548697007DA49F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		106C57161E548A6D007DA49F /* FirstRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstRouter.h; sourceTree = "<group>"; };
-		106C57171E548A6D007DA49F /* FirstRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstRouter.m; sourceTree = "<group>"; };
-		106C57191E548ABE007DA49F /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		106C571A1E548ABE007DA49F /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		106C571C1E548E1C007DA49F /* FirstConfigurator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstConfigurator.h; sourceTree = "<group>"; };
-		106C571D1E548E1C007DA49F /* FirstConfigurator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstConfigurator.m; sourceTree = "<group>"; };
-		106C57221E5497B1007DA49F /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		106C57231E5497B1007DA49F /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		106C57281E54A711007DA49F /* FirstInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstInteractor.h; sourceTree = "<group>"; };
-		106C57291E54A711007DA49F /* FirstInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstInteractor.m; sourceTree = "<group>"; };
-		106C572B1E54B932007DA49F /* FirstPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstPresenter.h; sourceTree = "<group>"; };
-		106C572C1E54B932007DA49F /* FirstPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstPresenter.m; sourceTree = "<group>"; };
+		498F5FD4FF77AF76F53B6D73 /* Pods-CleanArchitectureForObjective-C.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanArchitectureForObjective-C.release.xcconfig"; path = "Pods/Target Support Files/Pods-CleanArchitectureForObjective-C/Pods-CleanArchitectureForObjective-C.release.xcconfig"; sourceTree = "<group>"; };
+		E587FAB5E0975A71B3826221 /* libPods-CleanArchitectureForObjective-C.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CleanArchitectureForObjective-C.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E73ABEDC724973329446901B /* Pods-CleanArchitectureForObjective-C.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanArchitectureForObjective-C.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CleanArchitectureForObjective-C/Pods-CleanArchitectureForObjective-C.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,17 +65,68 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				927D661DBEAD917714968F9A /* libPods-CleanArchitectureForObjective-C.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		100CE2951E5B13F40098E6EC /* SampleScene */ = {
+		100E077E1E7711500077AB39 /* Workers */ = {
 			isa = PBXGroup;
 			children = (
+				100E07821E771ACF0077AB39 /* TodosWorker.h */,
+				100E07831E771ACF0077AB39 /* TodosWorker.m */,
 			);
-			name = SampleScene;
+			name = Workers;
+			sourceTree = "<group>";
+		};
+		102926BC1E5B644C00545CCE /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				102926BD1E5B645900545CCE /* ListTodos */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		102926BD1E5B645900545CCE /* ListTodos */ = {
+			isa = PBXGroup;
+			children = (
+				102926951E5B4B7600545CCE /* TodoListViewController.h */,
+				102926961E5B4B7600545CCE /* TodoListViewController.m */,
+				1029268B1E5B4B7600545CCE /* TodoListConfigurator.h */,
+				1029268C1E5B4B7600545CCE /* TodoListConfigurator.m */,
+				1029268D1E5B4B7600545CCE /* TodoListInteractor.h */,
+				1029268E1E5B4B7600545CCE /* TodoListInteractor.m */,
+				1029268F1E5B4B7600545CCE /* TodoListModels.h */,
+				102926901E5B4B7600545CCE /* TodoListModels.m */,
+				102926911E5B4B7600545CCE /* TodoListPresenter.h */,
+				102926921E5B4B7600545CCE /* TodoListPresenter.m */,
+				102926931E5B4B7600545CCE /* TodoListRouter.h */,
+				102926941E5B4B7600545CCE /* TodoListRouter.m */,
+				102926971E5B4B7600545CCE /* TodoListWorker.h */,
+				102926981E5B4B7600545CCE /* TodoListWorker.m */,
+			);
+			name = ListTodos;
+			sourceTree = "<group>";
+		};
+		102926BE1E5B647200545CCE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				102926C41E5B666900545CCE /* TodoServiceProtocol.h */,
+				100E07851E7721D00077AB39 /* TodosDataStore.h */,
+				100E07861E7721D00077AB39 /* TodosDataStore.m */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		102926BF1E5B648400545CCE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				100E077B1E7703380077AB39 /* TodoItem.h */,
+				100E077C1E7703380077AB39 /* TodoItem.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 		106C56F31E548696007DA49F = {
@@ -75,6 +134,8 @@
 			children = (
 				106C56FE1E548697007DA49F /* CleanArchitectureForObjective-C */,
 				106C56FD1E548697007DA49F /* Products */,
+				27CC93FAF765B611918D0985 /* Pods */,
+				F0212D2A5E248758A387DE80 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,27 +150,12 @@
 		106C56FE1E548697007DA49F /* CleanArchitectureForObjective-C */ = {
 			isa = PBXGroup;
 			children = (
-				100CE2951E5B13F40098E6EC /* SampleScene */,
 				106C57021E548697007DA49F /* AppDelegate.h */,
 				106C57031E548697007DA49F /* AppDelegate.m */,
-				106C57051E548697007DA49F /* ViewController.h */,
-				106C57061E548697007DA49F /* ViewController.m */,
-				106C57191E548ABE007DA49F /* FirstViewController.h */,
-				106C571A1E548ABE007DA49F /* FirstViewController.m */,
-				106C571C1E548E1C007DA49F /* FirstConfigurator.h */,
-				106C571D1E548E1C007DA49F /* FirstConfigurator.m */,
-				106C57281E54A711007DA49F /* FirstInteractor.h */,
-				106C57291E54A711007DA49F /* FirstInteractor.m */,
-				106C572B1E54B932007DA49F /* FirstPresenter.h */,
-				106C572C1E54B932007DA49F /* FirstPresenter.m */,
-				102B51451E56351F004EF74B /* FirstModels.h */,
-				102B51461E56351F004EF74B /* FirstModels.m */,
-				102B51421E5632D3004EF74B /* FirstWorker.h */,
-				102B51431E5632D3004EF74B /* FirstWorker.m */,
-				106C57221E5497B1007DA49F /* SecondViewController.h */,
-				106C57231E5497B1007DA49F /* SecondViewController.m */,
-				106C57161E548A6D007DA49F /* FirstRouter.h */,
-				106C57171E548A6D007DA49F /* FirstRouter.m */,
+				102926BF1E5B648400545CCE /* Models */,
+				102926BE1E5B647200545CCE /* Services */,
+				100E077E1E7711500077AB39 /* Workers */,
+				102926BC1E5B644C00545CCE /* Scenes */,
 				106C57081E548697007DA49F /* Main.storyboard */,
 				106C570B1E548697007DA49F /* Assets.xcassets */,
 				106C570D1E548697007DA49F /* LaunchScreen.storyboard */,
@@ -127,6 +173,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		27CC93FAF765B611918D0985 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E73ABEDC724973329446901B /* Pods-CleanArchitectureForObjective-C.debug.xcconfig */,
+				498F5FD4FF77AF76F53B6D73 /* Pods-CleanArchitectureForObjective-C.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F0212D2A5E248758A387DE80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E587FAB5E0975A71B3826221 /* libPods-CleanArchitectureForObjective-C.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +197,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 106C57131E548697007DA49F /* Build configuration list for PBXNativeTarget "CleanArchitectureForObjective-C" */;
 			buildPhases = (
+				6B9386CE66B31BE6DB4C69FC /* [CP] Check Pods Manifest.lock */,
 				106C56F81E548696007DA49F /* Sources */,
 				106C56F91E548696007DA49F /* Frameworks */,
 				106C56FA1E548696007DA49F /* Resources */,
+				9DEAE8AB5A9942F1E8BA81BD /* [CP] Embed Pods Frameworks */,
+				6E227939A1D5077EB54E774C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -160,6 +226,7 @@
 					106C56FB1E548696007DA49F = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = M9DDQZ5T2V;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -195,22 +262,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6B9386CE66B31BE6DB4C69FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6E227939A1D5077EB54E774C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CleanArchitectureForObjective-C/Pods-CleanArchitectureForObjective-C-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DEAE8AB5A9942F1E8BA81BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CleanArchitectureForObjective-C/Pods-CleanArchitectureForObjective-C-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		106C56F81E548696007DA49F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				106C57071E548697007DA49F /* ViewController.m in Sources */,
-				106C57181E548A6D007DA49F /* FirstRouter.m in Sources */,
-				102B51441E5632D3004EF74B /* FirstWorker.m in Sources */,
-				106C571B1E548ABE007DA49F /* FirstViewController.m in Sources */,
-				102B51471E56351F004EF74B /* FirstModels.m in Sources */,
-				106C572D1E54B932007DA49F /* FirstPresenter.m in Sources */,
-				106C57241E5497B1007DA49F /* SecondViewController.m in Sources */,
-				106C571E1E548E1C007DA49F /* FirstConfigurator.m in Sources */,
+				1029269E1E5B4B7600545CCE /* TodoListViewController.m in Sources */,
+				1029269C1E5B4B7600545CCE /* TodoListPresenter.m in Sources */,
+				1029269A1E5B4B7600545CCE /* TodoListInteractor.m in Sources */,
+				100E07841E771ACF0077AB39 /* TodosWorker.m in Sources */,
+				102926991E5B4B7600545CCE /* TodoListConfigurator.m in Sources */,
 				106C57041E548697007DA49F /* AppDelegate.m in Sources */,
 				106C57011E548697007DA49F /* main.m in Sources */,
-				106C572A1E54A711007DA49F /* FirstInteractor.m in Sources */,
+				1029269B1E5B4B7600545CCE /* TodoListModels.m in Sources */,
+				100E077D1E7703380077AB39 /* TodoItem.m in Sources */,
+				100E07871E7721D00077AB39 /* TodosDataStore.m in Sources */,
+				1029269D1E5B4B7600545CCE /* TodoListRouter.m in Sources */,
+				1029269F1E5B4B7600545CCE /* TodoListWorker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,25 +444,34 @@
 		};
 		106C57141E548697007DA49F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E73ABEDC724973329446901B /* Pods-CleanArchitectureForObjective-C.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = M9DDQZ5T2V;
 				INFOPLIST_FILE = "CleanArchitectureForObjective-C/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.CleanObjC.CleanArchitectureForObjective-C";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CleanArchitectureForObjective-C-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		106C57151E548697007DA49F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 498F5FD4FF77AF76F53B6D73 /* Pods-CleanArchitectureForObjective-C.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = M9DDQZ5T2V;
 				INFOPLIST_FILE = "CleanArchitectureForObjective-C/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.CleanObjC.CleanArchitectureForObjective-C";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CleanArchitectureForObjective-C-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
